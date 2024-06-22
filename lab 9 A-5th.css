@@ -1,0 +1,38 @@
+.p{
+   background-color: red;
+   height: 120px;
+   width: 120px;
+   animation-name: hi;
+   animation-duration: 5s;
+   position: relative;
+   animation-direction: reverse;
+}
+@keyframes hi {
+    0%{ 
+    	background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+    	background-color: yellow;
+    	top: 0px;
+    	left: 300px;
+
+    }
+    50%{
+    	background-color: blue;
+    	top: 300px;
+    	left: 300px;
+    }
+    75%{
+    	background-color: green;
+    	top: 300px;
+    	left: 0px;
+    }
+    100%{
+    	background-color: purple;
+    	top: 0px;
+    	left: 0px;
+    }
+
+}

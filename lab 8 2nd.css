@@ -1,0 +1,26 @@
+.menu{
+	text-align: center;
+}
+.enter{
+	margin-left: 700px;
+
+}
+.search{
+	margin-left: 885px;
+}
+.clientimg{
+
+}
+.mainimg{
+	height: 300px;
+	width: 80%;
+background-image: url('./clientimg.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.hireme{
+	background-color: red;
+}
+.img{
+	padding: 30px;
+}

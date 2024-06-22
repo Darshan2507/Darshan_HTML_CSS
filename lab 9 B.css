@@ -1,0 +1,19 @@
+.p{
+   background-color: red;
+   height: 400px;
+   width: 400px;
+   animation-duration: 5s;
+   position: relative;
+   /*transform: rotate(90deg); */
+   transition: Rotate 3s ease-in-out infinite alternate;
+}
+@keyframes{
+  from{
+     transform: rotateY(360deg); 
+
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+
+}
